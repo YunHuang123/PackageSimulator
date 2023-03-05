@@ -11,5 +11,9 @@ public class Main {
         System.out.println("input (numbers): ");
         int choice = s.nextInt();
 
+        if (choice == 1)
+        {
+            System.out.println("Enter zip code of the origin: ");
+        }
     }
 }
